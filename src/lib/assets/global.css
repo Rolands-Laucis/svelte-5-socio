@@ -23,7 +23,7 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background-color: black;
+    background-color: var(--white);
 
     font-family: sans-serif;
     font-optical-sizing: auto;
@@ -31,7 +31,7 @@ body {
     font-style: normal;
     font-size: var(--s-0);
 
-    color: var(--white);
+    color: black;
 }
 
 input,
