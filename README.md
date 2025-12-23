@@ -1,7 +1,8 @@
 Starter template project for
-* SvelteKit 5 with runes (+ Vite)
+* SvelteKit 5 with runes (+ Vite) for SPA type
 * Typescript
 * Socio (RTC framework)
+
 to make web party games.
 
 ## Developing
