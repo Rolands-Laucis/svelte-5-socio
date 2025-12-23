@@ -3,9 +3,6 @@
     import { sc, room_data } from '$lib/socket.svelte'; // Import the updated function
 </script>
 
-<h1>Welcome to Socio!</h1>
-<p>Client ID: {sc.client_id}</p>
-
 <style>
 
 </style>
