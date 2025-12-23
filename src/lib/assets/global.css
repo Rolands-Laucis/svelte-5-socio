@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap');
+
+:root {
+    /* colors */
+    --white: #ffffffc5;
+
+    /* spacing */
+    --s-03: 4px;
+    --s-02: 5px;
+    --s-01: 7px;
+    --s-0: 10px;
+    --s-1: 14px;
+    --s-2: 20px;
+    --s-3: 28px;
+    --s-4: 40px;
+    --s-5: 57px;
+    --s-6: 81px;
+    --s-7: 114px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+
+    font-family: "Monda", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--s-0);
+
+    color: var(--white);
+}
+
+input,
+select,
+button {
+    font-family: "Monda", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: var(--s-0);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: var(--s-3);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: var(--s-2);
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: var(--s-1);
+    font-weight: lighter;
+}
+
+p {
+    font-size: var(--s-0);
+    font-weight: 100;
+}
+
+strong,
+b {
+    font-weight: bold;
+}

@@ -1,0 +1,58 @@
+# ============================
+# GENERAL SEARCH ENGINE ACCESS
+# ============================
+
+# Allow everything to be crawled
+User-agent: *
+Allow: /
+
+# ============================
+# AI SCRAPER BLOCK LIST
+# (These bots respect robots.txt)
+# ============================
+
+# OpenAI GPTBot
+User-agent: GPTBot
+Disallow: /
+
+# OpenAI ChatGPT-User crawler
+User-agent: ChatGPT-User
+Disallow: /
+
+# CommonCrawl (large open dataset used by many AI models)
+User-agent: CCBot
+Disallow: /
+
+# Anthropic ClaudeBot
+User-agent: ClaudeBot
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+
+# Google AI-oriented crawler for Gemini training
+User-agent: Google-Extended
+Disallow: /
+
+# Perplexity AI crawler
+User-agent: PerplexityBot
+Disallow: /
+
+# Facebook / Meta AI dataset bot
+User-agent: FacebookBot
+Disallow: /
+
+# Amazon Bot (used in machine-learning dataset collection)
+User-agent: Amazonbot
+Disallow: /
+
+# Applebot (used for Siri + ML training)
+User-agent: Applebot
+Disallow: /
+
+# Stability AI crawler
+User-agent: StableBot
+Disallow: /
+
+# You.com AI search bot
+User-agent: YouBot
+Disallow: /
