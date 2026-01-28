@@ -8,14 +8,11 @@
     import { sc, room_data } from '$lib/socket.svelte'; // Import the updated function
     import { log } from 'socio/logging.js';
 
-    let ready = $state(false);
-
     onMount(async () => {
         log('Connecting...');
         await sc.Connect({
             url: "ws://localhost:3000"
         });
-        ready = true;
     });
     onDestroy(() => {
         if(room_data.players.hasOwnProperty(sc.client_id)){
@@ -32,7 +29,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{#if ready}
+{#if sc.ready()}
     {@render children()}
 {:else}
     <p>Connecting to server...</p>
